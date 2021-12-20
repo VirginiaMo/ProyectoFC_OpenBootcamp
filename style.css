@@ -1,0 +1,227 @@
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+ 
+    
+}
+.titleContainer hr{
+height: 3vh;
+width: 0.5vw;
+margin-top: 1rem;
+margin-left: 0.4rem;
+color: #32D5A4;
+background-color: #32D5A4;
+
+
+}
+.titleContainer .users{
+    color: #32D5A4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-right: 4rem;
+}
+
+.titleContainer .titleOpenBoot{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.imagen img{
+    width: 100%;
+
+}
+.inputNamePassword{
+display: flex;
+flex-direction: column;
+}
+.inputNamePassword label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+
+}
+.inputNamePassword input{
+    height: 4vh;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 0.7rem;
+
+}
+.checkboxAndAnchor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.checkboxAndAnchor input{
+    margin-right: 15px;
+    font-size: 14px;
+    
+}
+.checkboxAndAnchor a{
+ margin-left: 60px;
+ font-size: 14px;
+}
+button{
+    height: 4vh;
+    width: 100%;
+    background-color: #32D5A4;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer{
+    text-align: left;
+    margin-top: 20vh;
+    color:#A5A8B3;
+    letter-spacing: -0.02em;
+    line-height: 10px;
+    margin-bottom: 2rem;
+}
+
+/*smartphones, Android phones, landscape iPhone */ 
+
+
+@media (min-width: 480px) {
+
+    .titleContainer .users{
+
+        margin-right: 10.5rem;
+    }
+  
+    
+  }
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+
+@media (min-width:600px)   {
+  
+    .titleContainer .users{
+
+        margin-right: 13.5rem;
+        font-size: 30px;
+    }
+    .titleContainer .titleOpenBoot{
+        font-size: 30px;
+    }
+    .titleContainer hr{
+        height: 3.2vh;
+        width: 0.5vw;
+        margin-top: 1.3rem;
+        margin-left: 0.5rem;
+    }
+  }
+
+  
+   /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+   @media (min-width:801px) {
+  
+    .titleContainer .users{
+
+        margin-right:26.3rem;
+    }
+    .titleContainer hr{
+        height: 3.2vh;
+        width: 0.3vw;
+        margin-top: 1.3rem;
+        margin-left: 0.5rem;
+         
+        }
+    
+  }
+
+/* big landscape tablets, laptops, and desktops */
+
+  @media (min-width:1200px) {
+   .imagen img{
+       margin-left: 30rem;
+       margin-top: -15rem;
+
+   }
+    .titleContainer .users{
+        margin-right:49rem ;
+    }
+    .titleContainer {
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+    .titleContainer hr{
+        height: 3.2vh;
+        width: 0.2vw;
+        margin-top: 1.3rem;
+        margin-left: 0.5rem;
+    }
+    .inputNamePassword{
+        margin-left: 2rem;
+        margin-top: -40rem;
+    }
+    .inputNamePassword input{
+        width: 22rem;
+        height: 5vh;
+    }
+    .imagen{
+        width: 100%;
+       
+    }
+   button{
+    width: 23rem;
+    height: 5vh;
+    margin-left: 2rem;
+   }
+   .checkboxAndAnchor{
+    margin-left: 2rem;
+   }
+   .footer{
+    margin-left: 2rem;
+    margin-top: 15rem;
+   }
+    }
+
+
+/* hi-res laptops and desktops */
+
+@media (min-width:1500px) { 
+    .titleContainer {
+        margin-top: 9rem;
+        margin-left: 2rem;
+    }
+    .titleContainer .users{
+        margin-right:69rem ;
+        font-size: 28px;
+        
+    }
+    .titleContainer hr{
+        height: 3.3vh;
+        width: 0.2vw;
+        margin-left: 0.6rem;
+        
+    }
+    .titleContainer .titleOpenBoot{
+        font-size: 28px;
+    }
+    .inputNamePassword{
+        margin-top: -55rem;
+    }
+    .footer{
+        margin-left: 2rem;
+        margin-top: 30rem;
+       }
+.checkboxAndAnchor a{
+    margin-left: 80px;
+}
+ }
